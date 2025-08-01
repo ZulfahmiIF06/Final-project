@@ -10,7 +10,7 @@ import Product from "../pages/Product"
 import Navbar from "../components/NavbarComponent";
 import Footer from "../components/FooterComponent";
 
-const Homepage = () => {
+const HomePage = () => {
   const [showTentang, setShowTentang] = useState(false);
 
   useEffect(() => {
@@ -182,4 +182,4 @@ const Homepage = () => {
   );
 };
 
-export default Homepage;
+export default HomePage;
