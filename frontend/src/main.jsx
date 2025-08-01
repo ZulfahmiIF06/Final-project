@@ -8,7 +8,7 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
 
-import "./Dist/css/Main.css"
+import './Dist/css/Main.css';
 
 import { BrowserRouter} from"react-router-dom";
 
