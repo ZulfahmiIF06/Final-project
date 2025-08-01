@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import Homepage from "./pages/HomePage";
+import HomePage from "./pages/HomePage";
 import Destination from "./pages/Destination";
 import Event from "./pages/Event";
 import SyaratKet from "./pages/SyaratKet";
@@ -18,7 +18,7 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Homepage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/Destination" element={<Destination />} />
         <Route path="/Event" element={<Event />} />
         <Route path="/Syaratket" element={<SyaratKet />} />
